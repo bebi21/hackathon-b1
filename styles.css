@@ -1,0 +1,138 @@
+/* css all */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+/* header */
+header {
+  background-image: url(./img/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.nav__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  width: 80vw;
+}
+
+/* logo */
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+/* item */
+.item {
+  margin-left: 100px;
+}
+.item ul {
+  display: flex;
+  justify-content: space-between;
+}
+.item ul li {
+  padding: 0 20px;
+}
+.item ul li a:active {
+  color: #ffbc35;
+}
+/* user */
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+.icon ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon ul li {
+  padding: 0 10px;
+}
+.btn {
+  background-color: #ffbc35;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+/* header__content  */
+.header__content {
+  position: absolute;
+  width: 40%;
+  left: 203px;
+  top: 30%;
+}
+.header__content p {
+  margin-bottom: 10px;
+}
+/* header threedot */
+.header__threedot {
+  position: absolute;
+  bottom: 27%;
+  left: 200px;
+}
+.header__threedot span:nth-child(3) {
+  background-color: #ffbc35;
+}
+.header__threedot span {
+  display: inline-block;
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 0 5px;
+}
+/*  main */
+main {
+  background-color: #0d0e10;
+  background-image: linear-gradient(90deg, #0d0e10 0%, #3a4142 66%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__img {
+  width: 40%;
+  height: auto;
+  padding-right: -10px;
+}
+.main__img img {
+  width: 70%;
+  height: 50%;
+}
+/* main-title */
+.main__title {
+  width: 40%;
+}
+.main__title p {
+  margin-bottom: 10px;
+}
